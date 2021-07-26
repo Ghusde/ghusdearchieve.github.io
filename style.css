@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/p-banner.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -362,19 +362,19 @@ section .title::after{
     top: 0;
     background: crimson;
 }
-.skills-content .right .html::before{
+.skills-content .right .photoshop::before{
     width: 80%;
+}
+.skills-content .right .mikrotik::before{
+    width: 70%;
+}
+.skills-content .right .html::before{
+    width: 75%;
 }
 .skills-content .right .css::before{
     width: 70%;
 }
-.skills-content .right .js::before{
-    width: 75%;
-}
-.skills-content .right .php::before{
-    width: 75%;
-}
-.skills-content .right .mysql::before{
+.skills-content .right .adobe::before{
     width: 80%;
 }
 
