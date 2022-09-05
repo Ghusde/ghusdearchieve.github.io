@@ -258,16 +258,16 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .project{
+.services, .teams{
     color:#fff;
     background: #111;
 }
 .services .title::before,
-.project .title::before{
+.teams .title::before{
     background: #fff;
 }
 .services .title::after,
-.project .title::after{
+.teams .title::after{
     background: #111;
     content: "what i provide";
 }
