@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .project, .contact, footer{
+.about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/Runner.jpg") no-repeat center;
+    background: url("images/EXCH BG.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -378,11 +378,11 @@ section .title::after{
     width: 80%;
 }
 
-/* project section styling */
-.project .title::after{
+/* teams section styling */
+.teams .title::after{
     content: "list";
 }
-.project .carousel .card{
+.teams .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -390,25 +390,25 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.project .carousel .card:hover{
+.teams .carousel .card:hover{
     background: crimson;
 }
-.project .carousel .card .box{
+.teams .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.project .carousel .card:hover .box{
+.teams .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.project .carousel .card .text{
+.teams .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.project .carousel .card img{
+.teams .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -416,7 +416,7 @@ section .title::after{
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
-.project .carousel .card:hover img{
+.teams .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
